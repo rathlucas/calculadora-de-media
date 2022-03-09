@@ -1,0 +1,91 @@
+body {
+  font-family: Ubuntu, sans;
+  min-height: 400px;
+  background-image: url(https://images.pexels.com/photos/2088210/pexels-photo-2088210.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-2088210.jpg&fm=jpg);
+  background-color: #000000;
+  background-size: 80vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  background-color: salmon;
+  font-size: 2.5rem;
+  color: white;
+  padding: 10px;
+  margin: 0 0 5px;
+  
+}
+
+.page-subtitle {
+  text-align:center;
+  background-color: salmon;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color:white;
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 5px 5px 1px brown;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+  padding-top: 10px;
+  width: 200px;
+  border:1px solid grey;
+}
+
+label {
+  display:inline-block;
+  float:left;
+  width:120px;
+  margin-bottom:10px;
+  text-align:justify;
+}
+
+.notas {
+  display:inline-block;
+  width:40px;
+}
+
+.btn {
+  padding: 7px;
+  margin:10px 0 10px 0;
+  border: hidden;
+  border-radius: 3px;
+  background-color:beige;
+  font-weight: 700;
+  transition: background-color 300ms;
+  box-shadow: 3px 3px 1px brown;
+}
+
+.btn:hover {
+  cursor:pointer;
+  background-color: bisque;
+}
+
+.page-logo {
+  width: 200px;
+  margin-top:10px;
+  filter: invert(75%);
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  
+}
